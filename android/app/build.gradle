@@ -12,6 +12,8 @@ if (System.getenv('EX_UPDATES_NATIVE_DEBUG') == "1") {
   }
 }
 
+apply from: project(':react-native-config').projectDir.getPath() + "/dotenv.gradle"
+
 
 /**
  * This is the configuration block to customize your React Native Android app.
