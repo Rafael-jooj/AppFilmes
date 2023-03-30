@@ -42,6 +42,7 @@ function MyTabs(){
                 name="Films" 
                 component={Films}
                 options={{
+                    headerShown: false,
                     tabBarIcon: ({_, size, focused})=>{
                         if(focused){
                             return <Ionicons name='film' size={size} color={'red'}/>

@@ -15,7 +15,7 @@ export default function Home() {
         .then(data => data.json())
         .then(data => setFilmes(data.results))
         .catch(error => console.log(error))
-    })
+    },[])
 
 
     return (
@@ -23,7 +23,7 @@ export default function Home() {
             <View style={styles.poster}>
                 <FlatList
                     data={filmes}
-                    renderItem={({item})=> <Image style={{width: 400, height: 400}} source={{uri: `${img_path}${item.backdrop_path}`}}/>}
+                    renderItem={({item})=> <Image style={{width: 400, height: '100%'}} source={{uri: `${img_path}${item.backdrop_path}`}}/>}
                     key={({item}) => item.id}
                     horizontal
                 />
@@ -47,7 +47,6 @@ const styles = StyleSheet.create({
         backgroundColor: '#1A1D1F',
     },
     poster:{
-        backgroundColor: 'red',
         flex: 1
     },
     list:{
