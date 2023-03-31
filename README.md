@@ -8,4 +8,6 @@
 
 ## Demostração
 
-<img src="https://user-images.githubusercontent.com/71270235/228431669-03a8c58c-e44e-420b-b8c5-b5069e21a37a.png" width=40% height=40%>
+<img src="https://user-images.githubusercontent.com/71270235/229019701-69a964b5-faca-4ac6-b92f-2f3a07980bf1.png" width=30% height=30%>
+<img src="https://user-images.githubusercontent.com/71270235/229019677-3f7954c6-b1f9-4559-9d20-1b97e8c85fe1.png" width=30% height=30%>
+<img src="https://user-images.githubusercontent.com/71270235/229019693-8879f187-a7bc-48b7-81ca-8fbb929ff97c.png" width=30% height=30%>
