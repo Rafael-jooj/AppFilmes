@@ -13,14 +13,9 @@ function MyTabs(){
             screenOptions={{
                 tabBarShowLabel: false,
                 tabBarStyle:{
-                    position: 'absolute',
                     backgroundColor: '#272B30',
                     borderTopWidth: 0,
-                    bottom: 14,
-                    left: 14,
-                    right: 14,
                     elevation: 0,
-                    borderRadius: 15,
                     height: 60
                 }
             }}
@@ -55,6 +50,7 @@ function MyTabs(){
                 name="Profile" 
                 component={Profile}
                 options={{
+                    headerShown: false,
                     tabBarIcon:({_,size,focused})=>{
                         if(focused){
                             return <Ionicons name="person" size={size} color={'red'}/>

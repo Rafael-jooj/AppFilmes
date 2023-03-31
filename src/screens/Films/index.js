@@ -20,7 +20,9 @@ export default function Films() {
   return (
       <View style={styles.container}>
           <Text style={styles.title}>Search</Text>
-          <Search style={styles.search}/>
+          <View style={{marginBottom: 10}}>
+            <Search style={styles.search}/>
+          </View>
           <FlatList
             data={filmes}
             key={filmes.id}

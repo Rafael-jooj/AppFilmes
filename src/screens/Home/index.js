@@ -26,6 +26,10 @@ export default function Home() {
                     renderItem={({item})=> <Image style={{width: 400, height: '100%'}} source={{uri: `${img_path}${item.backdrop_path}`}}/>}
                     key={({item}) => item.id}
                     horizontal
+                    pagingEnabled
+                    showsHorizontalScrollIndicator={false}
+                    decelarationRate="fast"
+                    snapToAlignment={'start'}
                 />
             </View>
             <View style={styles.list}>
@@ -35,6 +39,7 @@ export default function Home() {
                     renderItem={({item})=> <List title={item.title} path={item.poster_path}/>}
                     key={({item}) => item.id}
                     horizontal
+                    showsHorizontalScrollIndicator={false}
                 />
             </View>
         </View>
